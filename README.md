@@ -17,7 +17,7 @@
 + git add ---> 变已暂存，被记录进了staging area（暂存区）
     + git add 文件名
     + git add .
-+ git commit ---> 提交 TODO
++ git commit ---> 提交 TODO-
     + 初始状态下：命令模式
     + "i"（⼩写）来切换到插⼊模式，输⼊你的提交信息 
     + 输⼊完成后，按ESC键返回到命令模式，然后连续输⼊两个⼤写的"Z"（⽤Shift键或Capslock键都可以），就保存并退出了。
