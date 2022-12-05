@@ -30,7 +30,7 @@
 + 再进⾏merge操作
 
 ### git merge 合并commits（指定一个commit，把它合并到当前的 commit 中来）
-+ 实例：将自己当前写的这个分支上的代码合并到test分支上，然后打包test分支上的代码，发布到服务器 TODO
++ 实例：将自己当前写的这个分支上的代码合并到test分支上，然后打包test分支上的代码，发布到服务器 TODO-
     + git checkout test 切换到test分支
     + git merge 分支（要合并到test上的分支）
 
@@ -39,7 +39,7 @@
 ### branch：⼀个指向commit的引⽤
 
 ### git branch 分支名
-+ （基于当前所在的分支，创建分支）TODO
++ （基于当前所在的分支，创建分支）TODO-
 ### git checkout 分支名 
 + （切换当前所在分支）(实际：切换HEAD)
 
