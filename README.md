@@ -101,3 +101,12 @@
 
 ### 场景
 + 两个人开发同一分支，修改同一个文件的同一处（非同一处呢），小红push了，小明也在本地做了自己的修改，此时小明更新小红的代码会怎么样
+
++ 小刘有个开发分支，开发完合并到test分支上， （当前test分支）git merge _xiaoliu 之后，控制台显示有偏离的分支，需要调和
+    + 小刘发现原来是自己 merge 之前忘记拉test分支的最新代码了
+    + 解决：调和的三种
+        + git config pull.rebase false #合并
+        + git config pull.rebase true  #变基
+        + git config pull.ff only      #仅快进
+    + 小刘选择了第二种，然后git push提交 --》 解决
+    + 小结： git merge 合并后会保留原有分支记录，git rebase 不会
