@@ -80,3 +80,14 @@
 + 工作目录 --》 git add git commit
 + 上一条提交 --》 最新的push
 
+### git commitlog 提交规范
++ feat: 新功能
++ fix: 修复 bug
++ docs: 文档新增或修改
++ refactor: 重构代码，不影响现有功能
++ perf: 为了优化性能的改动
++ test: 增加或修正测试
++ build: 编译脚本、工具或依赖等项目构建相关的改动
++ ci: CI构建配置文件或脚本相关的改动
++ chore: 无法匹配以上类别的其它改动
+其中feat 、fix 与 perf 类型的提交将被用于自动生成项目 changelog.
